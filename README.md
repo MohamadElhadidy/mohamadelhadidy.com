@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+!-- Hero Section Image -->
+<p align="center">
+  <img src="https://your-image-url.com/hero.png" alt="Hero Section" width="100%" />
+</p>
 
-## Getting Started
+# mohamadelhadidy.com
 
-First, run the development server:
+Welcome to the source code for my personal portfolio website – [mohamadelhadidy.com](https://mohamadelhadidy.com).  
+I'm Mohamad Elhadidy – a UI/UX designer and developer focused on crafting intuitive, modern, and user-friendly digital experiences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This website showcases my work, case studies, blog posts, and offers an easy way to connect with me for collaborations or opportunities.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: HTML5, CSS3, JavaScript  
+- **Framework**: [Add if you're using one – e.g., Laravel / React / Tailwind CSS / Next.js]
+- **Design & Prototyping**: Figma
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Hero section with a personal introduction
+- Portfolio of selected projects with case studies
+- About Me section with background and skills
+- Blog for sharing insights and resources
+- Fully responsive and optimized for performance & SEO
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📂 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+.├── assets/ # Images, fonts, and static content ├── components/ # Reusable UI components ├── pages/ # Website pages (Home, About, Work, Blog, Contact) ├── styles/ # CSS / SCSS / Tailwind files ├── public/ # Public files and favicons └── README.md # Project documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## 🌐 Live Site
+
+👉 [mohamadelhadidy.com](https://mohamadelhadidy.com)
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me:
+
+- Email: [your-email@example.com](mailto:your-email@example.com)  
+- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)  
+- Instagram / Twitter / Dribbble: [@yourhandle](#)
+
+---
+
+## 📸 Screenshots
+
+_You can add more screenshots here (desktop + mobile views) if needed._
+
+---
+
+## 🛠️ License
+
+This project is open source and available under the [MIT License](LICENSE).
