@@ -1,0 +1,82 @@
+.hero_section__container {
+  display: flex;
+  padding: 80px 50px 54px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_section__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 667px;
+}
+
+.hero_section_title {
+  color: var(--text);
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+}
+
+
+
+.h3_design {
+  background: var(--Design);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h3_build {
+  background: var(--Dev);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.hero_section_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+
+
+
+.hero_section_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 100%;
+  height: 48px;
+  background: var(--background);
+  border-radius: 8px;
+  border: none;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero_section_button:hover {
+  background: var(--text);
+  color: var(--background);
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:1100px) {}
+
+
+@media only screen and (max-width:780px) {
+
+}

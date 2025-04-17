@@ -1,8 +1,6 @@
 import metadata from "./lib/metadata";
 import "./ui/globals.css";
 import { raleway } from "./ui/fonts";
-import Header from "./ui/header";
-import Footer from "./ui/footer";
 
 export {metadata};
 
@@ -13,12 +11,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${raleway.className} antialiased`} data-theme="dark"
-      >
-        <Header/>
+      <body className={`${raleway.className} antialiased`} data-theme="dark">
         {children}
-        <Footer/>
       </body>
     </html>
   );
