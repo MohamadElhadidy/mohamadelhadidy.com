@@ -17,9 +17,9 @@ export default function About() {
                 <div className={styles.about_section_text}>
                     <h1 className='heading'>About Me</h1>
                     <p className='caption'>
-                        I'm Mohamad Elhadidy, a passionate UI/UX Designer and Developer who loves bringing ideas to life through clean, intuitive, and user-friendly digital experiences.
+                        I&apos;m Mohamad Elhadidy, a passionate UI/UX Designer and Developer who loves bringing ideas to life through clean, intuitive, and user-friendly digital experiences.
                         With a strong foundation in both design and code, I specialize in crafting modern web and mobile apps from the ground up — from wireframes and UI prototypes to fully functional React Native and Laravel-based applications.
-                        I enjoy solving real-world problems with simple yet effective design, always putting the user first. Whether it's a sleek interface, a responsive layout, or a seamless user flow — I focus on creating products that not only look good but feel right
+                        I enjoy solving real-world problems with simple yet effective design, always putting the user first. Whether it&apos;s a sleek interface, a responsive layout, or a seamless user flow — I focus on creating products that not only look good but feel right
                     </p>
                 </div>
                 <div className={styles.tools_container}>
