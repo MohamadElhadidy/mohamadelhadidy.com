@@ -41,7 +41,7 @@ export default function Header() {
                 <ul className={styles.header__nav}>
                     <li><a className={styles.header__nav__item} href="#">Home</a></li>
                     <li><a className={styles.header__nav__item} href="#about">About Me</a></li>
-                    <li><a className={styles.header__nav__item} href="#">Projects</a></li>
+                    <li><a className={styles.header__nav__item} href="#projects">Projects</a></li>
                 </ul>
 
             </div>

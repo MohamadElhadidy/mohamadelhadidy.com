@@ -7,6 +7,7 @@
   --Heading: linear-gradient(90deg, #FF6A00 9.76%, #EEA909 36.95%);
   --Design: linear-gradient(90deg, #FF6A00 9.76%, #EE0979 36.95%);
   --Dev: linear-gradient(90deg, #C471ED 9.64%, #12CBC4 54.15%);
+  --subtitle : #4A4A4A;
 }
 
 [data-theme="light"] {
