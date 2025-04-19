@@ -14,6 +14,8 @@
   --background: rgba(255, 255, 255, 0.95);
   --text: #121212;
   --caption: #4A4A4A;
+  --subtitle : #D8D5D5;
+
 }
 
 html {
@@ -179,6 +181,11 @@ body {
 
 .default_icon{
   color: var(--text);
+}
+
+.links_icon{
+  color: var(--background);
+
 }
 
 

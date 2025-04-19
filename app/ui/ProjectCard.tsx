@@ -1,15 +1,34 @@
-import Image from 'next/image';
 import styles from './css/projectCard.module.css'
-export default function ProjectCard() {
+import URLIcon from './icons/URLIcon';
+import GitHubIcon from './icons/GitHubIcon';
+import BehanceIcon from './icons/BehanceIcon';
+import DribbleIcon from './icons/DribbleIcon';
+
+interface ProjectCardProps {
+    image: string;
+    title: string;
+    description: string;
+    URL?: string;
+    GitHub?: string;
+    Behance?: string;
+    Dribble?: string;
+}
+
+
+export default function ProjectCard({ image, title, description, URL, GitHub, Behance, Dribble }: ProjectCardProps) {
     return (
         <div className={styles.card}>
             <div className={styles.content}>
-                <Image src='/project.png' height={175} width={200} alt='project image' className='image' />
-                <div className='description'>
-                    <p>Foodle – Fast Food Website UI</p>
-                    <span>
-                    A clean and intuitive UI design for a fast food delivery platform. Focused on enhancing user experience through simple navigation, quick checkout, and mobile responsiveness. Designed to make ordering food fast, fun, and frustration-free.
-                    </span>
+                <div className={styles.image} style={{background: `url(${image}) lightgray 50% / cover no-repeat`}}></div>
+                <div className={styles.description}>
+                    <p>{title}</p>
+                    <span>{description}</span>
+                </div>
+                <div className={styles.links}>
+                    {URL && <a href={URL} target="_blank" rel="noopener noreferrer"><URLIcon /></a>}
+                    {GitHub && <a href={GitHub} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>}
+                    {Behance && <a href={Behance} target="_blank" rel="noopener noreferrer"><BehanceIcon /></a>}
+                    {Dribble && <a href={Dribble} target="_blank" rel="noopener noreferrer"><DribbleIcon /></a>}
                 </div>
             </div>
         </div>

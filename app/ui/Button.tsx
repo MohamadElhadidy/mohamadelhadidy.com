@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Spinner from './Spinner';
 
 interface ButtonProps {
     label: string;
@@ -6,9 +7,10 @@ interface ButtonProps {
     disabled?: boolean;
     variant?: 'primary' | 'secondary';
     className?: string;
+    loading?: boolean;
 }
 
-const Button = ({ label, onClick, disabled = false, variant = 'primary', className = '' }: ButtonProps) => {
+const Button = ({ label, onClick, disabled = false, variant = 'primary', className = '' , loading = false}: ButtonProps) => {
     return (
         <button
             onClick={onClick}
@@ -18,7 +20,7 @@ const Button = ({ label, onClick, disabled = false, variant = 'primary', classNa
                 'primary__button': variant === 'primary',
                 'secondary__button': variant === 'secondary',
             }, className)}>
-            {label}
+            {loading ?  <Spinner /> : label}
         </button>
     );
 };
