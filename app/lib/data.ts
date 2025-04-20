@@ -1,4 +1,15 @@
-export const projectsData = [
+interface Project {
+    id: number;
+    image: string;
+    title: string;
+    description: string;
+    URL: string;
+    GitHub: string;
+    Behance: string;
+    Dribble: string;
+  }
+
+export const projectsData : Project[] = [
     // {
     //     id: 1,
     //     image: '/project.png',
