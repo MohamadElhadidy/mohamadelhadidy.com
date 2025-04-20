@@ -79,5 +79,10 @@
   .hero_section_title {
     font-size: 32px;
   }
+
+  .hero_section_buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
   
 }
