@@ -1,4 +1,4 @@
-import styles from './css/spinner.module.css';
+import styles from '@styles/spinner.module.css';
 
 const Spinner = () => {
   return <div className={styles.loader}></div>;

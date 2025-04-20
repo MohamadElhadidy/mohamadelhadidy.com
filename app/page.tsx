@@ -1,8 +1,11 @@
-import Header from "./ui/header";
-import Hero from "./ui/Hero";
-import Footer from "./ui/footer";
-import About from "./ui/About";
-import Projects from "./ui/Projects";
+'use client';
+
+import Header from "@sections/header";
+import Hero from "@sections/Hero";
+import About from "@sections/About";
+import Projects from "@sections/Projects";
+import Footer from "@sections/footer";
+
 
 export default function Home() {
   return (

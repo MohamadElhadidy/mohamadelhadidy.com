@@ -4,12 +4,13 @@ import { useEffect, useState } from 'react';
 import { FiSun } from "react-icons/fi";
 import { RiMoonClearLine } from "react-icons/ri";
 import { LuMenu } from "react-icons/lu";
-import { toggleTheme } from "@/lib/utils";
-import LogoDark from "./LogoDark";
-import LogoLight from "./LogoLight";
-import Button from "./Button";
-import styles from "./css/header.module.css";
-import MobileMenu from './MobileMenu';
+import { toggleTheme } from "@lib/utils";
+import LogoDark from "@components/LogoDark";
+import LogoLight from "@components/LogoLight";
+import Button from "@components/Button";
+import styles from "@styles/header.module.css";
+import MobileMenu from '@components/MobileMenu';
+import Cookies from "js-cookie";
 
 
 export default function Header() {
@@ -17,7 +18,8 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
-        const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+        const currentTheme = Cookies.get("theme") || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
         setIsDarkMode(currentTheme === 'dark');
     }, []);
 
@@ -51,7 +53,7 @@ export default function Header() {
                     {isDarkMode ? <FiSun color="rgba(255, 255, 255, 0.95)" style={{ height: 24, width: 24 }} /> : <RiMoonClearLine color="#121212" style={{ height: 24, width: 24 }} />}
                 </button>
 
-                <Button className={styles.header__contact__button} label="Contact" onClick={() => window.open("#", "_blank")} />
+                <Button className={styles.header__contact__button} label="Contact" href="#footer" />
                 <LuMenu className={styles.header__menu_icon} style={{ height: 24, width: 24 }} onClick={toggleMenu} />
             </div>
 

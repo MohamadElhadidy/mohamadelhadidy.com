@@ -53,15 +53,24 @@
 
 
 
-
 @media only screen and (max-width:780px) {
 
-    .tools{
-        grid-template-columns: auto auto auto auto auto;  
+    .tools {
+        grid-template-columns: auto auto auto auto auto;
     }
 
-    .tools > *:last-child {
+    .tools>*:last-child {
         grid-column: span 2;
-      }
-  
-  }
+    }
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+    .tools {
+        grid-template-columns: auto auto auto auto;
+    }
+
+
+}

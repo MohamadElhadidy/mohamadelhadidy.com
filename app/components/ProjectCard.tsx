@@ -1,8 +1,8 @@
-import styles from './css/projectCard.module.css'
-import URLIcon from './icons/URLIcon';
-import GitHubIcon from './icons/GitHubIcon';
-import BehanceIcon from './icons/BehanceIcon';
-import DribbleIcon from './icons/DribbleIcon';
+import styles from '@styles/projectCard.module.css'
+import URLIcon from '@icons/URLIcon';
+import GitHubIcon from '@icons/GitHubIcon';
+import BehanceIcon from '@icons/BehanceIcon';
+import DribbleIcon from '@icons/DribbleIcon';
 
 interface ProjectCardProps {
     image: string;

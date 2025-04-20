@@ -44,7 +44,6 @@ const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  themeColor: "#000000",
   category: "portfolio",
 };
 

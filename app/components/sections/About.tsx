@@ -1,13 +1,13 @@
-import styles from './css/about.module.css'
-import FigmaIcon from './icons/FigmaIcon'
-import HTMLIcon from './icons/HTMLIcon'
-import CSSIcon from './icons/CSSIcon'
-import NextjsIcon from './icons/NextjsIcon'
-import ReactNativeIcon from './icons/ReactNativeIcon'
-import XDIcon from './icons/XDIcon'
-import PHPIcon from './icons/PHPIcon'
-import LaravelIcon from './icons/LaravelIcon'
-import MYSQLIcon from './icons/MYSQLIcon'
+import styles from '@styles/about.module.css'
+import FigmaIcon from '@icons/FigmaIcon'
+import HTMLIcon from '@icons/HTMLIcon'
+import CSSIcon from '@icons/CSSIcon'
+import NextjsIcon from '@icons/NextjsIcon'
+import ReactNativeIcon from '@icons/ReactNativeIcon'
+import XDIcon from '@icons/XDIcon'
+import PHPIcon from '@icons/PHPIcon'
+import LaravelIcon from '@icons/LaravelIcon'
+import MYSQLIcon from '@icons/MYSQLIcon'
 
 export default function About() {
 
