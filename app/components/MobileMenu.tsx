@@ -30,6 +30,7 @@ export default function MobileMenu({ isOpen, closeMenu }: MobileMenuProps) {
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About me</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </div></>
     );
