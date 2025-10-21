@@ -6,10 +6,13 @@ use App\Livewire\Frontend\ProjectPage;
 use App\Livewire\Frontend\ServicePage;
 use Illuminate\Support\Facades\Route;
 
+
+// Frontend
 Route::get('/', HomePage::class)->name('home');
-Route::get('/services/{service}', ServicePage::class)->name('services');
-Route::get('/projects/{project}', ProjectPage::class)->name('projects');
+Route::get('/services/{service}', ServicePage::class)->name('service');
+Route::get('/projects/{project}', ProjectPage::class)->name('project');
 Route::get('/contact', ContactPage::class)->name('contact');
+
 
 
 Route::middleware([
